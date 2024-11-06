@@ -1,0 +1,35 @@
+
+.filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.clear-button {
+  padding: 10px 15px;
+  background-color: #d67a32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+  background-color: #c66d2e;
+}

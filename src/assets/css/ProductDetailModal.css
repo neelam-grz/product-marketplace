@@ -1,0 +1,67 @@
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: center;
+}
+.anchor-wrap button {
+    width: 48%;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1.2;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.anchor-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+button.clear {
+    background-color: #232323;
+    color: #fff;
+}
+
+button.apply {
+    background-color: #2eaa87;
+    color: #222;
+}
+.close-button {
+  cursor: pointer;
+  float: right;
+  font-size: 24px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-price {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.add-to-basket-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
